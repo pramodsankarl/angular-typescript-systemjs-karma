@@ -4,7 +4,10 @@ _A minimalistic example for loading angular 1.0 app with `systemjs` and writing 
 
 Steps:
 
-1) `npm install`
-2) `grunt` (default) will open port 9000.
-3) `grunt compile` will watch and compile typescript file.
-4) `grunt test` runs unit test in watch mode.
+ 1) `npm install`
+ 
+ 2) `grunt` (default) will open port 9000.
+ 
+ 3) `grunt compile` will watch and compile typescript file.
+ 
+ 4) `grunt test` runs unit test in watch mode.
