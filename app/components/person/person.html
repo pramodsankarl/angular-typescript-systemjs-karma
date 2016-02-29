@@ -1,0 +1,11 @@
+<article>
+    <h1>List of people</h1>
+    <section class="row">
+        <div class="col-xs-12">
+            <article ng-repeat="person in personCtrl.people" class="col-xs-12">
+                <div class="col-xs-5">{{person.lastName}}, {{person.firstName}}</div>
+                <div class="col-xs-3">{{person.role}}</div>
+            </article>
+        </div>
+    </section>
+</article>

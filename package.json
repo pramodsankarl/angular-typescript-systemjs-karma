@@ -1,0 +1,32 @@
+{
+  "name": "angular-typescript-system-karma",
+  "version": "1.0.0",
+  "description": "A very simple angular 1.0 application written in Typescript with karma systemjs loader",
+  "main": "index.js",
+  "scripts": {
+    "bower": "bower install",
+    "typings": "typings install --ambient",
+    "install": "bower && typings"
+  },
+  "author": "PSL",
+  "license": "ISC",
+  "devDependencies": {
+    "es6-module-loader": "^0.17.11",
+    "grunt": "^0.4.5",
+    "grunt-karma": "^0.12.1",
+    "grunt-serve": "^0.1.6",
+    "grunt-ts": "^5.3.2",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.21",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.7",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-systemjs": "^0.12.0",
+    "phantomjs": "^2.1.3",
+    "phantomjs-prebuilt": "^2.1.4",
+    "systemjs": "^0.19.23",
+    "typescript": "^1.8.2",
+    "typings": "^0.6.8"
+  },
+  "dependencies": {}
+}

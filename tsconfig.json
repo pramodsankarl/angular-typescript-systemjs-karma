@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "system",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true
+  },
+  "exclude": [
+   "node_modules",
+    "bower_components",
+    "typings/main.d.ts",
+    "typings/main"
+  ]
+}

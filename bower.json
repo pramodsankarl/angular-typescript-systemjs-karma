@@ -1,0 +1,29 @@
+{
+  "name": "angular-typescript-system-karma",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "PSL <pramodsankar.l@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-mocks": "~1.5.0",
+    "angular": "angularjs#~1.5.0",
+    "lodash": "~4.5.1",
+    "jquery": "~2.2.1",
+    "system.js": "~0.19.23"
+  },
+  "devDependencies": {
+    "angular": "angularjs#~1.5.0",
+    "lodash": "~4.5.1"
+  }
+}

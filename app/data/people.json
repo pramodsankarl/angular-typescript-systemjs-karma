@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "firstName": "Johny",
+    "lastName": "Depp",
+    "contact": [
+      {
+        "cell phone": "999-999-9999"
+      },
+      {
+        "github": "https://github.com/pramodsankarl"
+      },
+      {
+        "twitter": "https://twitter.com/pramodsankarl"
+      },
+      {
+        "stackoverflow": "http://stackoverflow.com/users/1009603/psl"
+      }
+    ],
+    "role": "Developer"
+  },
+  {
+    "id": 2,
+    "firstName": "Leonardo",
+    "lastName": "Dicaprio",
+    "contact": [
+      {
+        "cell phone": "999-999-9999"
+      },
+      {
+        "github": "https://github.com/pramodsankarl"
+      },
+      {
+        "twitter": "https://twitter.com/pramodsankarl"
+      },
+      {
+        "stackoverflow": "http://stackoverflow.com/users/1009603/psl"
+      }
+    ],
+    "role": "Manager"
+  },
+  {
+    "id": 2,
+    "firstName": "Arnold",
+    "lastName": "Schwarzenegger",
+    "contact": [
+      {
+        "cell phone": "999-999-9999"
+      },
+      {
+        "github": "https://github.com/pramodsankarl"
+      },
+      {
+        "twitter": "https://twitter.com/pramodsankarl"
+      },
+      {
+        "stackoverflow": "http://stackoverflow.com/users/1009603/psl"
+      }
+    ],
+    "role": "Developer"
+  }
+]

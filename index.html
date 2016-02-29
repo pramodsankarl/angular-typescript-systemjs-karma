@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Typescript Angular SystemJS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.css">
+</head>
+<body>
+<person></person>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/lodash/lodash.js"></script>
+<script src="bower_components/system.js/dist/system.src.js"></script>
+<script>
+    System.config({
+        defaultJSExtensions:true
+    });
+
+    System.import('app/app-bootstrap');
+</script>
+
+</body>
+</html>
