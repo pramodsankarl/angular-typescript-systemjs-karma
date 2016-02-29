@@ -15,7 +15,7 @@ describe("PersonService", ()=>{
     beforeEach(()=>{
         angular.mock.module('app.services');
 
-        angular.mock.inject((_PersonService_, _$httpBackend_)=>{
+        angular.mock.inject((_PersonService_:PersonService, _$httpBackend_:angular.IHttpBackendService)=>{
             personService = _PersonService_;
             $httpBackend = _$httpBackend_;
 

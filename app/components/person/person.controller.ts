@@ -12,6 +12,9 @@ export class PersonController {
     }
 
     init(){
-        this.personService.getPeople().then((people)=> this.people = people);
+        this.personService.getPeople().then((people)=>{
+            console.log(people);
+            this.people = people;
+        });
     }
 }

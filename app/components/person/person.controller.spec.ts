@@ -4,7 +4,7 @@ import {PersonController} from './person.controller';
 describe('Person Controller',()=>{
     let PersonService:PersonService,
         ctrl:PersonController,
-        digest,
+        digest : ()=>void,
         peopleMock:Person[];
 
     beforeEach(()=>{

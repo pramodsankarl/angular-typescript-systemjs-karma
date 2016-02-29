@@ -27,8 +27,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-ts');
     grunt.loadNpmTasks('grunt-karma');
 
-    grunt.registerTask('default', ['serve']);
     grunt.registerTask('compile', ['ts']);
     grunt.registerTask('test', ['karma:unit']);
-
+    grunt.registerTask('default', ['serve']);
 };
