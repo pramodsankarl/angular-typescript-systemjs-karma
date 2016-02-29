@@ -14,21 +14,20 @@ module.exports = function (config) {
             'karma-chrome-launcher',
             'karma-jasmine'
         ],
-        browsers: ['Chrome'],
+        browsers: ['PhantomJS'],
         autoWatch: true,
         systemjs: {
             includeFiles : [
                 'bower_components/angular/angular.js',
                 'bower_components/angular-mocks/angular-mocks.js'
             ],
-            configFile: './grunt-tasks/system.conf.js',
+            configFile: './grunt-helpers/system.conf.js',
             config: {
                 packages: {
                     'app': {
                         defaultExtension: 'ts'
                     }
-                },
-                transpiler : 'typescript'
+                }
             },
             testFileSuffix: "spec.ts"
         }
