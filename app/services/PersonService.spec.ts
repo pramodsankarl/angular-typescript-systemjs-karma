@@ -18,7 +18,6 @@ describe("PersonService", ()=>{
         angular.mock.inject((_PersonService_:PersonService, _$httpBackend_:angular.IHttpBackendService)=>{
             personService = _PersonService_;
             $httpBackend = _$httpBackend_;
-
             $httpBackend.expectGET('/app/data/people.json').respond(200, personMock);
         });
     });
