@@ -6,3 +6,4 @@ app/**/*.js.map
 .tscache
 .idea
 tscommand*
+coverage

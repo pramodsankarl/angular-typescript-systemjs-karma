@@ -19,6 +19,10 @@ class PersonService {
 
     constructor(private $http:angular.IHttpService){}
 
+    /**
+     * Function to get the list of people
+     * @returns {IPromise<Person[]>|angular.IPromise<Person[]>}
+     */
     getPeople():angular.IPromise<Person[]>{
         return this.$http.get('/app/data/people.json').then((response:{data: PersonRaw[]})=>{
             let {data} = response;
