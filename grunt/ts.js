@@ -7,5 +7,10 @@ module.exports = {
             passThrough: true
         },
         watch: '.'
+    },
+    build: {
+        tsconfig: {
+            passThrough: true
+        }
     }
 };

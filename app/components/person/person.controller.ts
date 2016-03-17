@@ -5,6 +5,7 @@ import {
 
 export class PersonController {
     people : Person[];
+    hasError:  boolean;
     static $inject = ['PersonService'];
 
     constructor(private personService : PersonService){
@@ -12,9 +13,9 @@ export class PersonController {
     }
 
     init(){
-        this.personService.getPeople().then((people)=>{
-            console.log(people);
+        this.personService.getPeople()
+            .then((people)=>{
             this.people = people;
-        });
+       }).catch(()=> this.hasError = true);
     }
 }
