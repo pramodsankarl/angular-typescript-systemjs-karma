@@ -5,5 +5,8 @@ System.config({
         typescript: "node_modules/typescript/lib/typescript.js",
         'es6-module-loader': 'node_modules/es6-module-loader/dist/es6-module-loader.js'
     },
+    meta : {
+        'app/*' : {format:'register'}
+    },
     transpiler: "typescript"
 });
