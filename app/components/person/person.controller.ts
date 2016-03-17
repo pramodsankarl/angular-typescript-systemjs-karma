@@ -4,18 +4,17 @@ import {
 } from '../../services/services';
 
 export class PersonController {
-    people : Person[];
-    hasError:  boolean;
+    people:Person[];
+    hasError:boolean;
     static $inject = ['PersonService'];
 
-    constructor(private personService : PersonService){
+    constructor(private personService:PersonService) {
         this.init();
     }
 
-    init(){
+    init() {
         this.personService.getPeople()
-            .then((people)=>{
-            this.people = people;
-       }).catch(()=> this.hasError = true);
+            .then((people)=> this.people = people)
+            .catch(()=> this.hasError = true);
     }
 }
