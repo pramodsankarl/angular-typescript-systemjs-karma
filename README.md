@@ -12,3 +12,13 @@ Steps:
  3) `grunt compile` will watch and compile typescript file.
  
  4) `grunt test` runs unit test in watch mode.
+ 
+ 
+ Stack:
+ 
+ - Angular 1.0
+ - Typescript
+ - SystemJS
+ - Grunt
+ - Karma/jasmine
+ - sourcemaps
