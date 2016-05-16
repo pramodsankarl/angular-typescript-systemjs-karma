@@ -18,6 +18,7 @@ describe('Person Controller',()=>{
         angular.mock.inject(($controller:angular.IControllerService, $q:angular.IQService, $rootScope:angular.IRootScopeService)=>{
             (<jasmine.Spy>PersonService.getPeople).and.returnValue($q.when(peopleMock));
             ctrl = $controller<PersonController>('PersonController',{ PersonService });
+            ctrl.$onInit();
             digest = ()=> $rootScope.$digest();
         });
     });
