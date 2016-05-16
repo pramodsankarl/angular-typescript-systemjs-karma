@@ -9,10 +9,10 @@ export class PersonController {
     static $inject = ['PersonService'];
 
     constructor(private personService:PersonService) {
-        this.init();
+      
     }
 
-    init() {
+    $onInit() {
         this.personService.getPeople()
             .then((people)=> this.people = people)
             .catch(()=> this.hasError = true);
